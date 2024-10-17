@@ -8,8 +8,6 @@ This project demonstrates how to perform sentiment analysis on movie reviews usi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Evaluation](#model-evaluation)
-- [Results](#results)
-- [Conclusion](#conclusion)
 
 ## Dataset
 The dataset used for this project is the **IMDb movie reviews dataset**. It contains a large number of movie reviews labeled as either **positive** or **negative**.
@@ -64,3 +62,21 @@ You can install the required dependencies using the following command:
 ```bash
 pip install numpy pandas matplotlib seaborn nltk scikit-learn
 ```
+## Usage
+1. Clone the repository:
+```bash
+Copy code
+git clone https://github.com/yourusername/imdb-sentiment-analysis.git
+cd imdb-sentiment-analysis
+```
+2. Run the notebook: Open the notebook file imdb_sentiment_analysis.ipynb in Jupyter and run the cells step by step to follow the entire analysis.
+
+3. Customize the model: You can modify the code to try different machine learning models or experiment with text preprocessing methods.
+
+## Model Evaluation
+The following metrics are used to evaluate the performance of the Naive Bayes model:
+-Accuracy: The overall correctness of the model’s predictions.
+-Precision: The percentage of correct positive predictions.
+-Recall: The percentage of actual positives that were correctly identified.
+-F1-Score: The harmonic mean of precision and recall.
+-Confusion Matrix: A table showing the number of correct and incorrect predictions.
