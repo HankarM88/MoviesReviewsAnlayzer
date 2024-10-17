@@ -75,8 +75,8 @@ cd imdb-sentiment-analysis
 
 ## Model Evaluation
 The following metrics are used to evaluate the performance of the Naive Bayes model:
--Accuracy: The overall correctness of the model’s predictions.
--Precision: The percentage of correct positive predictions.
--Recall: The percentage of actual positives that were correctly identified.
--F1-Score: The harmonic mean of precision and recall.
--Confusion Matrix: A table showing the number of correct and incorrect predictions.
+- Accuracy: The overall correctness of the model’s predictions.
+- Precision: The percentage of correct positive predictions.
+- Recall: The percentage of actual positives that were correctly identified.
+- F1-Score: The harmonic mean of precision and recall.
+- Confusion Matrix: A table showing the number of correct and incorrect predictions.
