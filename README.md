@@ -66,10 +66,10 @@ pip install numpy pandas matplotlib seaborn nltk scikit-learn
 1. Clone the repository:
 ```bash
 Copy code
-git clone https://github.com/yourusername/imdb-sentiment-analysis.git
-cd imdb-sentiment-analysis
+git clone https://github.com/yourusername/MoviesReviewsAnalyzer.git
+cd MoviesReviewsAnalyzer
 ```
-2. Run the notebook: Open the notebook file imdb_sentiment_analysis.ipynb in Jupyter and run the cells step by step to follow the entire analysis.
+2. Run the notebook: Open the notebook file  in Jupyter and run the cells step by step to follow the entire analysis.
 
 3. Customize the model: You can modify the code to try different machine learning models or experiment with text preprocessing methods.
 
